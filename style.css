@@ -1,0 +1,40 @@
+body {
+  background-color: blanchedalmond;
+  margin: auto;
+}
+
+.name-news {
+  text-align: center;
+  width: auto;
+  height: auto;
+  background-color: brown;
+  color: white;
+}
+
+.articles {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.articles img {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.articles .info {
+  display: inline-block;
+  width: 55%;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
